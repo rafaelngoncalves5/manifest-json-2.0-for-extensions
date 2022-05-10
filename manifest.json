@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "name",
+    "description": "description of name",
+    "version": "1.0",
+    "icons": {
+        "16": "",
+            "48": "",
+            "128": ""
+    },
+    "page_action": {
+        "defautlt_icon": {
+            "16": "",
+            "48": "",
+            "128": ""
+        }
+        },
+        "content_scripts": [
+        {
+           "matches": ["https://www.sitename.com/*"],
+           "js": [""],
+           "css": [""]
+        }
+    ]
+  }
